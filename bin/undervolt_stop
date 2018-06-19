@@ -1,0 +1,3 @@
+#!/bin/bash
+
+/usr/bin/undervolt --core 0 --cache 0 --uncore 0
