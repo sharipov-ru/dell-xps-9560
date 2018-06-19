@@ -59,7 +59,9 @@ hardware, software and power saving options support.
 1. Download debs:
 
 > wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.10/linux-headers-4.15.10-041510_4.15.10-041510.201803152130_all.deb
+
 > wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.10/linux-headers-4.15.10-041510-generic_4.15.10-041510.201803152130_amd64.deb<Paste>
+
 > wget http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.15.10/linux-image-4.15.10-041510-generic_4.15.10-041510.201803152130_amd64.deb
 
 2. Install every fetched deb:
@@ -148,6 +150,7 @@ Create undervolt service:
 Create bins:
 
 > cp bin/undervolt_start /usr/bin/undervolt_start
+
 > cp bin/undervolt_stop /usr/bin/undervolt_stop
 
 Don't forget to properly test, be ready to laptop freezes when testing and good luck :)
@@ -174,7 +177,7 @@ when I'm working on battery.
 
 # Useful links
 
-[TLP - Advanced Power Management for Linux](https://github.com/linrunner/TLP)
-[How to update kernel to the latest mainline version without any Distro-upgrade?](https://askubuntu.com/questions/119080/how-to-update-kernel-to-the-latest-mainline-version-without-any-distro-upgrade)
-[Disabling dGPU on Dell XPS 9560 on Ubuntu 16.10](https://gist.github.com/jseris/a740f6a3fb0d18064e26dc66f9be4f1d)
-[XPS 9560 - Battery life optimization](https://www.reddit.com/r/Dell/comments/5y3rii/xps_9560_battery_life_optimization_and_fan/)
+* [TLP - Advanced Power Management for Linux](https://github.com/linrunner/TLP)
+* [How to update kernel to the latest mainline version without any Distro-upgrade?](https://askubuntu.com/questions/119080/how-to-update-kernel-to-the-latest-mainline-version-without-any-distro-upgrade)
+* [Disabling dGPU on Dell XPS 9560 on Ubuntu 16.10](https://gist.github.com/jseris/a740f6a3fb0d18064e26dc66f9be4f1d)
+* [XPS 9560 - Battery life optimization](https://www.reddit.com/r/Dell/comments/5y3rii/xps_9560_battery_life_optimization_and_fan/)
