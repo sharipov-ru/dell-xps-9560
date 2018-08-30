@@ -139,19 +139,23 @@ Read initial values:
 
 > sudo undervolt --read
 
-Set voltages for CPU core, CPU cache and CPU uncore:
+Test & set voltages for CPU core, CPU cache and CPU uncore:
 
 > sudo undervolt --core -100 --cache -100 --uncore -100
 
-Create undervolt service:
-
-> cp services/undervolt.service /etc/systemd/system/undervolt.service
-
 Create bins:
 
-> cp bin/undervolt_start /usr/bin/undervolt_start
+> sudo cp bin/undervolt_start /usr/bin/undervolt_start
 
-> cp bin/undervolt_stop /usr/bin/undervolt_stop
+> sudo cp bin/undervolt_stop /usr/bin/undervolt_stop
+
+Create undervolt service:
+
+> sudo cp services/undervolt.service /etc/systemd/system/undervolt.service
+
+Enable undervolt service:
+
+> sudo systemctl enable undervolt.service
 
 Don't forget to properly test, be ready to laptop freezes when testing and good luck :)
 
