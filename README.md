@@ -1,3 +1,13 @@
+## Aug 2021 update
+
+Dell have disabled undervolting on its laptops including Dell XPS 9560 - recent versions of XPS 9560 BIOS won't give access to change processor registers related to voltage settings. BIOS downgrade won't help because Intel Management Engine won't be allowed to downgrade during flashing.
+
+Main advice: do not upgrade XPS 9560 BIOS & disable Windows auto-update.
+
+Read more:
+
+[Intel and OEMs have killed undervolting and there is little that you can do about it](https://www.notebookcheck.net/Intel-and-OEMs-have-killed-undervolting-and-there-is-little-that-you-can-do-about-it.477330.0.html)
+
 ## Goal
 
 The main goal of this guide is to help to confugure XPS 9560 for linux distros, particularly for
